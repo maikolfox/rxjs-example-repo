@@ -11,6 +11,6 @@ const frappes$=new Observable(observer=>{
 })
 
 
-frappes$.subscribe(observer=>{
-    console.log(observer.event.value)
+frappes$.subscribe(event=>{
+    console.log(event.target.value)
 })
